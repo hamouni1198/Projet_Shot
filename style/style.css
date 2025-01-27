@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+li{ 
+    list-style: none;
+}
+nav{
+display: flex;
+position: fixed;
+width: 100%;
+overflow: hidden;
+top: 0;
+justify-content: space-between;
+border-bottom: 1px solid black;
+background-color: white;
+z-index: 100;
+}
+nav .nav ul{
+display: flex;
+justify-content: space-around;
+gap: 70px;
+font-size: 20px;
+font-weight: 700;
+padding: 30px;
+}
+nav .nav ul li{
+    cursor: pointer;
+    color: black;
+    transition: color 0.3s;
+}
+nav .nav ul li:hover{
+    color: rgb(212, 19, 19);
+
+}
+nav .logo{
+    padding-left: 40px;
+    display: flex;
+}
+nav .logo img{
+    width: 150px;
+    height: 90%;
+}
+main{
+    padding-top: 101px;
+    
+}
+main .text img{
+    text-align: center;
+    margin: auto;
+    display: flex;
+}
+main .frame {
+    text-align: center;
+    margin: auto;
+    display: flex;
+    width: 371px; 
+    height: 406px; 
+    overflow: hidden;
+    border-radius: 50% 50% 0 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .phrase{
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+main .phrase h2{
+    font-family: "Poppins";
+    text-align: center;
+    letter-spacing: 2px;
+    
+}
+main .phrase h2 span {
+    color: orangered;
+}
+main .projet{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+main .projet .gauche{
+    height: 607px;
+    width: 400px;
+    justify-content: space-around;
+    display: grid;
+    gap: 15px;
+}
+main .projet .gauche .v1{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: aqua;
+    height: 329px;
+    width: 400px;
+    background-image: url(../image/v1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    transition: background-size 2s;
+    cursor: pointer;
+}
+main .projet .gauche .v1:hover{
+    background-size: 110%;
+    filter: brightness(0.9);
+}
+main .projet .gauche .v2{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: blue;
+    height: 329px;
+    width: 400px;
+    background-image: url(../image/v2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    transition: background-size 2s;
+    cursor: pointer;
+}
+main .projet .gauche .v2:hover{
+    background-size: 110%;
+    filter: brightness(0.9);
+}
+main .projet .centre{
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    height: 675px;
+    width: 700px; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../image/cenre.webp);
+    background-size: 100%;
+    transition: background-size 2s;
+    cursor: pointer;
+}
+
+main .projet .centre:hover{
+    background-size: 110%;
+    filter: brightness(0.9);
+}
+ .play{
+    color: rgba(0, 0, 0, 0.436);
+}
+ .start{
+    color: white;
+    z-index: 1000;
+}
+main .projet .droit{
+    height: 607px;
+    width: 400px;
+    justify-content: space-around;
+    display: grid;
+    gap: 15px;
+}
+main .projet .droit .ve1{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: aqua;
+    height: 329px;
+    width: 400px;
+    background-image: url(../image/ve1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    transition: background-size 2s;
+    cursor: pointer;
+}
+main .projet .droit .ve1:hover{
+    background-size: 110%;
+    filter: brightness(0.9);
+}
+main .projet .droit .ve2{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: blue;
+    height: 329px;
+    width: 400px;
+    background-image: url(../image/ve2.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    transition: background-size 2s;
+    cursor: pointer;
+    filter: none;
+}
+main .projet .droit .ve2:hover{
+    background-size: 110%;
+    filter: brightness(0.9);
+}
+main .shot{
+    padding-top: 70px;
+    padding-bottom: 100px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+main .shot h2{
+    font-family: "Poppins";
+    text-align:-webkit-match-parent;
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin-bottom: 120px;
+}
+main .shot h2 span{
+    color: orangered;
+}
+
+.shot h1{
+    display: block;
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgba(255, 106, 0, 0.696);
+}
+.shot h1 span{
+    display: block;
+    font-size: 4rem;
+    font-weight: bold;
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(255, 106, 0, 0.696); 
+    text-stroke: 1px rgba(255, 106, 0, 0.696); 
+}
+header{
+    background-color: black;
+    height: 50px;
+    color: white;
+    text-align: center;
+}
