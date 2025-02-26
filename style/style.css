@@ -44,7 +44,6 @@ nav .logo img{
 }
 main{
     padding-top: 101px;
-    
 }
 main .text img{
     text-align: center;
@@ -80,6 +79,7 @@ main .projet{
     display: flex;
     justify-content: space-around;
     padding: 20px;
+    flex-wrap: wrap;
 }
 main .projet .gauche{
     height: 607px;
